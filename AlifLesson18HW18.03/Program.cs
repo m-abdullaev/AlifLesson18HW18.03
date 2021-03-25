@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlifLesson18HW18._03.Repos;
+using System;
 
 namespace AlifLesson18HW18._03
 {
@@ -6,7 +7,11 @@ namespace AlifLesson18HW18._03
     {
         static void Main(string[] args)
         {
-            
+            PersonRepository Person = new PersonRepository();
+
+            //Person.Read();
+            //Person.Create();
+            //Person.Delete();
         }
     }
 }
